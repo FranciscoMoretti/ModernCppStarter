@@ -3,7 +3,7 @@
 [![Actions Status](https://github.com/FranciscoMoretti/modern-roulette/workflows/Ubuntu/badge.svg)](https://github.com/FranciscoMoretti/modern-roulette/actions)
 [![Actions Status](https://github.com/FranciscoMoretti/modern-roulette/workflows/Style/badge.svg)](https://github.com/FranciscoMoretti/modern-roulette/actions)
 [![Actions Status](https://github.com/FranciscoMoretti/modern-roulette/workflows/Install/badge.svg)](https://github.com/FranciscoMoretti/modern-roulette/actions)
-[![codecov]([![codecov](https://codecov.io/gh/FranciscoMoretti/modern-roulette/branch/master/graph/badge.svg?token=RT2GQ7GP1D)](https://codecov.io/gh/FranciscoMoretti/modern-roulette)
+[![codecov](https://codecov.io/gh/FranciscoMoretti/modern-roulette/branch/master/graph/badge.svg?token=RT2GQ7GP1D)](https://codecov.io/gh/FranciscoMoretti/modern-roulette)
 
 <p align="center">
   <img src="https://repository-images.githubusercontent.com/254842585/4dfa7580-7ffb-11ea-99d0-46b8fe2f4170" height="175" width="auto" />
