@@ -22,7 +22,6 @@ This template is the result of learnings from many previous projects and should 
 - Integrated test suite
 - Continuous integration via [GitHub Actions](https://help.github.com/en/actions/)
 - Code coverage via [codecov](https://codecov.io)
-- Code formatting enforced by [clang-format](https://clang.llvm.org/docs/ClangFormat.html) and [cmake-format](https://github.com/cheshirekow/cmake_format) via [Format.cmake](https://github.com/TheLartians/Format.cmake)
 - Reproducible dependency management via [CPM.cmake](https://github.com/TheLartians/CPM.cmake)
 - Installable target with automatic versioning information and header generation via [PackageProject.cmake](https://github.com/TheLartians/PackageProject.cmake)
 - Automatic [documentation](https://thelartians.github.io/ModernCppStarter) and deployment with [Doxygen](https://www.doxygen.nl) and [GitHub Pages](https://pages.github.com)
@@ -69,23 +68,6 @@ CTEST_OUTPUT_ON_FAILURE=1 cmake --build build/test --target test
 
 To collect code coverage information, run CMake with the `-DENABLE_TEST_COVERAGE=1` option.
 
-### Run clang-format
-
-Use the following commands from the project's root directory to check and fix C++ and CMake source style.
-This requires _clang-format_, _cmake-format_ and _pyyaml_ to be installed on the current system.
-
-```bash
-cmake -Htest -Bbuild/test
-
-# view changes
-cmake --build build/test --target format
-
-# apply changes
-cmake --build build/test --target fix-format
-```
-
-See [Format.cmake](https://github.com/TheLartians/Format.cmake) for details.
-
 ### Build the documentation
 
 The documentation is automatically built and [published](https://thelartians.github.io/ModernCppStarter) whenever a [GitHub Release](https://help.github.com/en/github/administering-a-repository/managing-releases-in-a-repository) is created.
@@ -111,8 +93,6 @@ cmake --build build
 
 # run tests
 ./build/test/GreeterTests
-# format code
-cmake --build build --target fix-format
 # run standalone
 ./build/standalone/Greeter --help
 # build docs
