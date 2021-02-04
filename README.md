@@ -23,7 +23,7 @@ This template is the result of learnings from many previous projects and should 
 - Code coverage via [codecov](https://codecov.io)
 - Reproducible dependency management via [CPM.cmake](https://github.com/TheLartians/CPM.cmake)
 - Installable target with automatic versioning information and header generation via [PackageProject.cmake](https://github.com/TheLartians/PackageProject.cmake)
-- Automatic [documentation](https://thelartians.github.io/ModernCppStarter) and deployment with [Doxygen](https://www.doxygen.nl) and [GitHub Pages](https://pages.github.com)
+- Automatic [documentation](https://franciscomoretti.github.io/ModernCppStarter/) and deployment with [Doxygen](https://www.doxygen.nl) and [GitHub Pages](https://pages.github.com)
 - Support for [sanitizer tools, and more](#additional-tools)
 
 ## Usage
@@ -69,7 +69,7 @@ To collect code coverage information, run CMake with the `-DENABLE_TEST_COVERAGE
 
 ### Build the documentation
 
-The documentation is automatically built and [published](https://thelartians.github.io/ModernCppStarter) whenever a [GitHub Release](https://help.github.com/en/github/administering-a-repository/managing-releases-in-a-repository) is created.
+The documentation is automatically built and [published](https://franciscomoretti.github.io/ModernCppStarter/) whenever either a commit is pushed or a pull request is merged to the master branch.
 To manually build documentation, call the following command.
 
 ```bash
